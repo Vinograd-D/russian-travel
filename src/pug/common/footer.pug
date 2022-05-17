@@ -1,0 +1,8 @@
+- var links = [{name: 'Карты', site: 'https://yandex.ru/maps'}, {name: 'Погода',site: 'https://yandex.ru/pogoda'}, {name: 'Расписание', site: 'https://rasp.yandex.ru'}, {name: 'Календарь',site: 'https://calendar.yandex.ru'}, {name: 'Путешествия', site: 'https://travel.yandex.ru'}]
+footer.footer
+    nav.footer__nav
+        ul.footer__list-links
+            for item in links
+                li.footer__list-link.dawww
+                    a.footer__link(target="_blank" href=item.site)=item.name
+    p.footer__copyright © 2020. Vinorgadov Dmitry
