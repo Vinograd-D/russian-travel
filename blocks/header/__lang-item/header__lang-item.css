@@ -2,7 +2,10 @@
   font-size: 18px;
   line-height: 20px;
   text-align: right;
-  cursor: pointer
+  cursor: pointer;
+  color: #ffffff;
+  -webkit-transition: opacity .5s ease;
+  transition: opacity .5s ease
 }
 .header__lang-item:hover {
   opacity: .8
