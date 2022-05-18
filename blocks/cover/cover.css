@@ -1,0 +1,17 @@
+.cover {
+  position: relative;
+  margin-top: 66px;
+}
+
+@media (min-width: 1280px) {
+  .cover {
+    padding: 0 48px;
+    margin-top: 92px;
+  }
+}
+
+@media (min-width: 480px) {
+  .cover {
+    margin-top: 90px;
+  }
+}

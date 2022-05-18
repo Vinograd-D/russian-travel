@@ -1,0 +1,19 @@
+.footer__list-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 480px) {
+  .footer__list-links {
+    gap: 32px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}

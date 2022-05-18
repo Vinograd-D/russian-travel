@@ -1,0 +1,11 @@
+.header__lang-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 18px;
+  -moz-column-gap: 18px;
+  column-gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
