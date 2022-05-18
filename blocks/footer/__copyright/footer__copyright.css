@@ -4,8 +4,3 @@
   margin: 0;
 }
 
-@media (max-width: 768px) {
-  .footer__copyright {
-    padding: 48px 0 0;
-  }
-}

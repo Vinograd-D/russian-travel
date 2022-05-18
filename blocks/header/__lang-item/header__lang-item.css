@@ -5,7 +5,8 @@
   cursor: pointer;
   color: #ffffff;
   -webkit-transition: opacity .5s ease;
-  transition: opacity .5s ease
+  transition: opacity .5s ease;
+  text-decoration: none;
 }
 .header__lang-item:hover {
   opacity: .8

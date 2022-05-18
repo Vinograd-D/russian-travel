@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 576px) {
   .footer__list-links {
     gap: 32px;
     -webkit-box-orient: vertical;
