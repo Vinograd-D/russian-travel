@@ -3,11 +3,6 @@
   grid-template-columns:minmax(288px, 460px) minmax(288px, 488px);
   grid-gap: 48px 40px;
   gap: 48px 40px;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
 }
 
 @media (max-width: 1024px) {
