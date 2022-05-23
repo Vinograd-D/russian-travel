@@ -2,7 +2,7 @@
   display: grid;
   gap: 16px;
   margin-top: 92px;
-  grid-template-columns:repeat(auto-fit, minmax(288px, 1fr));
+  grid-template-columns:repeat(auto-fit, minmax(284px, 1fr));
   padding: 0 48px
 }
 
